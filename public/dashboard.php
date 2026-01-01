@@ -1,7 +1,7 @@
 <?php
 session_start();
 require '../config/db.php';
-require '../vendor/autoload.php'; // Load PhpSpreadsheet
+// require '../vendor/autoload.php'; // Load PhpSpreadsheet
 
 if (!isset($_SESSION['user_id'])) header("Location: index.php");
 
